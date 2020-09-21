@@ -1,32 +1,33 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>|
+      <router-link to="/Dogs">Our Dogs</router-link>
     </div>
-    <router-view/>
+    <router-view  />
   </div>
 </template>
+<script>
+
+export default {
+  name: "App"
+  }
+
+</script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+body {
+  background: #eee;
+  font-family: 'Open Sans', sans-serif;
 
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
+  #app {
+    max-width: 1000px;
+    margin: 1rem auto;
+  }
+
 </style>
+
