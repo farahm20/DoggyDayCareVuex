@@ -1,4 +1,5 @@
 # doggydaycare
+This is project made in vuex. User is able to see a list of dogs that is coming form json file. Each dog card is clickable and contains dog Id and name.
 
 ## Project setup
 ```
